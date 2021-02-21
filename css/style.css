@@ -1,0 +1,69 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header a {
+    color: rgb(36, 84, 218);
+
+}
+
+#sec-1 img {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+#sec-1 .name {
+    color: rgb(78, 104, 175);
+} 
+
+#sec-1 .content {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+.font{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media only screen and (min-width: 991px){
+
+    
+
+    .iconBackground {
+        position: absolute;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid #6592e6;
+        margin-left: -9px;
+        background-color: #6592e6;
+    }
+
+    
+    .b {
+        border-left: 2px solid #6592e6;
+    }
+}
+
+#contact .bg-contact {
+    background-color: #fafafa;
+}
+
+/* @media only screen and (max-width: 991px){
+    #sec-1 .content {
+        position: absolute;
+        top: 350px;
+        left: 120px;
+    }
+} */
+
+#footer .text-f {
+    color: #cfcecefa;
+}
